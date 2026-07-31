@@ -1,8 +1,11 @@
 package eric.festivalPulse.repository;
 
 import eric.festivalPulse.model.FestivalArea;
+import org.springframework.stereotype.Repository;
+
 import java.util.List;
 import java.util.Optional;
+
 
 public interface AreaRepository {
     FestivalArea save(FestivalArea area);

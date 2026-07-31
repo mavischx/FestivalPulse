@@ -10,6 +10,8 @@ public class FestivalPulseApplication {
         SpringApplication.run(FestivalPulseApplication.class, args);
         System.out.println("Hello World");
 
+
+
     }
 
 }
